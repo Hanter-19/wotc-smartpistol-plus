@@ -1,0 +1,17 @@
+; Doesn't work - trying to add localization for target's Hack Defense in the Aim breakdown in Tactical
+[X2TacticalGameRulesetDataStructures]
+m_aCharStatLabels[eStat_HackDefense]="Hack Defense"
+
+; For the Covert Infiltration plugin
+[X2Ability_SmartPistolInfiltration]
+strTemplateLocFriendlyName="Smart Infiltration"
+strTemplateLocLongDescription="Smartpistols provide infiltration bonuses which scale with the unit's hacking stat, including equipment bonuses."
+strTemplateInfiltrationHours="Infiltration Hours"
+strTemplateRiskReduction="% Risk Reduction"
+strTemplateJoinInfiltrationHours="<br/><Bullet/>"
+strTemplateJoinRiskReduction="<br/><Bullet/>"
+
+; NegativeSign is blank because by default a negative number will already have a sign when converting to string
+[SmartPistolPlus_Helper]
+strNegativeSign=""
+strPositiveSign="+"

@@ -1,0 +1,12 @@
+# 0.1.0 - First Pre-release Version
+- Fixed the missing localization error in all smartpistol items: it was missing localization for an innate ability that grants +100 aim to and enables critical hits on reaction shots. I have localized it as "Guided Reactive Fire".
+- [True Primary Secondaries](https://steamcommunity.com/sharedfiles/filedetails/?id=2133399183) support
+- [RPGO](https://steamcommunity.com/workshop/filedetails/?id=1280477867) support 
+    - `UniversalSoldier` can equip in both primary and secondary slot
+- [Covert Infiltration](https://steamcommunity.com/sharedfiles/filedetails/?id=2567230730) support
+    - Includes bridge configs for [Prototype Armory](https://steamcommunity.com/sharedfiles/filedetails/?id=2567230602)
+    - The smartpistol does not grant any infiltration bonus on its own (configurable)
+    - Instead, it grants scaling infiltration bonuses according to their hack skill (configurable) implemented via a new dummy ability
+- [Dedicated Pistol Slot](https://steamcommunity.com/sharedfiles/filedetails/?id=1705464884) support
+    - RPGO soldiers and the original classes who can use smartpistols in the original smartpistol mod can equip them in the Dedicated Pistol Slot.
+    - Note that LWotC has its own impelementation of the dedicated pistol slot, and I've not configured it for that. Instead I've configured it for the [backported classes](https://steamcommunity.com/sharedfiles/filedetails/?id=3234301247).
