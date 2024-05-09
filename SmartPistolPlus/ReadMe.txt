@@ -5,7 +5,7 @@ A collection of QoL tweaks and new inter-mod behavior for [url=https://steamcomm
 [list]
 	[*] Tweaks
 		[list]
-			[*] TODO: Figure out why the CV tier is firing 4 shots instead of the advertised 3
+			[*] CV tier now fires the advertised 3 shots instead of 4 shots (configurable in [b]XComSmartPistol.ini[/b])
 			[*] TODO: (not sure how) Some way of visualizing the remaining ammo in tactical UI when the smartpistol is not the primary weapon
 			[*] TODO: (not sure how) Add flyover text when reload succeeds or fails
 		[/list]

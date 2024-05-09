@@ -41,6 +41,9 @@
     <Content Include="Config\XComGameData.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComSmartPistol.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComSmartPistolPlus.ini">
       <SubType>Content</SubType>
     </Content>
